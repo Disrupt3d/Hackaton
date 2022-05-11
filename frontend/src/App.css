@@ -1,0 +1,64 @@
+/* RESET */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  /*Police and fonts */
+  --title-font: "roboto", sans-serif;
+  --title-size: 48px;
+  --text-font: "roboto", sans-serif;
+  --text-size: 24px;
+  --responsive-text-size: 16px;
+  --responsive-title-size: 32px;
+
+  /*Spacing */
+
+  --main-line-lenght: 25ch;
+  line-height: 1.5;
+  box-sizing: border-box;
+  letter-spacing: 0.1rem;
+
+  /*Graphic Chart*/
+
+  --BackgroundColor: ;
+  --color1: ;
+  --color2: ;
+  --color3: ;
+  --border-radius: 18px;
+  --box-shadow: 0 3px 7px var(--color1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--title-font);
+  font-weight: 500;
+  color: black;
+}
+p {
+  color: black;
+  font-family: var(--text-font);
+  font-weight: 500;
+}
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* RESET */
+
+/* RESPONSIVE BREAKPOINT TABLETS */
+
+@media screen and (max-width: 1024px) {
+}
+
+/*  RESPONSIVE BREAKPOINT SMARTPHONES */
+
+@media screen and (max-width: 767px) {
+}
