@@ -1,7 +1,11 @@
 .header {
-  background-color: white;
+  background-color: black;
   display: flex;
   align-items: center;
+}
+
+.header h2 {
+  color: white;
 }
 
 .menuWrapper {
@@ -20,6 +24,7 @@
   padding: 1rem 2rem;
   position: relative;
   font-family: var(--title-font);
+  color: white;
 }
 
 .menuWrapper li:hover {
