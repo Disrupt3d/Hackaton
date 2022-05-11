@@ -28,7 +28,7 @@ Terry GRIMOIRE
 - `lint` : Exécute des outils de validation de code (sera exécutée automatiquement à chaque _commit_)
 - `fix` : Fixe les erreurs de formatage (à lancer si `lint` ne passe pas)
 
-# Pour plus d'informations
+
 
 # Listing des outils utilisés
 
