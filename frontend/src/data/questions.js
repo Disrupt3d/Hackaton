@@ -269,29 +269,6 @@ const questions = [
     img: "https://cdn-s-www.lalsace.fr/images/E3ED48F5-04EC-4031-B0B7-BDC4698180AC/NW_raw/plus-ecologiques-les-cosmetiques-solides-suscitent-l-engouement-du-public-mais-tous-ne-se-valent-pas-dessin-phil-umbdenstock-1646218322.jpg",
     type: "parent",
   },
-  {
-    id: 11,
-    question: "",
-    reponse1: {
-      text: "A: ",
-      isCorrect: false,
-    },
-    reponse2: {
-      text: "B: ",
-      isCorrect: false,
-    },
-    reponse3: {
-      text: "C: ",
-      isCorrect: false,
-    },
-    reponse4: {
-      text: "D: ",
-      isCorrect: false,
-    },
-    commentaire: "",
-    img: "",
-    type: "",
-  },
 ];
 
 export default questions;
