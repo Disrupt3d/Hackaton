@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ContextProvider } from "./contexts/UserContext.jsx";
+import { ContextProvider } from "./contexts/UserContext";
 
 import Accueil from "./pages/Accueil";
 import Page01 from "./pages/Page01";
