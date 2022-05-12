@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ContextProvider } from "./contexts/UserContext";
+import { ContextProvider } from "./contexts/UserContext.jsx";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
