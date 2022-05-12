@@ -2,8 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ContextProvider } from "./contexts/UserContext";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Accueil from "./pages/Accueil";
 import Page01 from "./pages/Page01";
 import Page02 from "./pages/Page02";
@@ -16,7 +14,6 @@ function App() {
   return (
     <ContextProvider>
       <BrowserRouter>
-        <Header />
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/page01" element={<Page01 />} />
@@ -25,7 +22,6 @@ function App() {
           <Route path="/page04" element={<Page04 />} />
           <Route path="*" element={<Page04 />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </ContextProvider>
   );

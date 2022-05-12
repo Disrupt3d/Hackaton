@@ -10,7 +10,6 @@ function Header() {
   };
   return (
     <div className={`header ${showMenu ? "show-nav" : "hide-nav"}`}>
-      <h2>Logo</h2>
       <div className="menuWrapper">
         <Navbar handleShowMenu={handleShowMenu} />
       </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import Boutton from "@components/Boutton";
+import accueildata from "../data/accueildata";
+import { Link } from "react-router-dom";
 
 // import { HashLink as Link } from "react-router-hash-link";
 
@@ -6,21 +9,22 @@ import "../styles/Accueil.css";
 
 function Accueil() {
   return (
-    <div>
-      <h1>Accueil</h1>
-      <div className="test" />
-      <button className="btn-test" type="button">
-        Parent
-      </button>
-      <button className="btn-test" type="button">
-        Enfant
-      </button>
-      <p className="p-test">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-        placeat laborum assumenda at nihil fugiat rem, consequatur quasi
-        consequuntur nemo dolor libero aliquam illo, voluptas neque odit saepe
-        eaque facilis.
-      </p>
+    <div className="accueil-wrapper">
+      <h1>Educ' ton Vieux</h1>
+      <input
+        className="name-container"
+        type="text"
+        placeholder="Tape ton prénom"
+      />
+
+      <div className="btn-container">
+        <Link to="/page01">
+          <Boutton el={accueildata[0]} />
+        </Link>
+        <Link to="/page01">
+          <Boutton el={accueildata[1]} />
+        </Link>
+      </div>
     </div>
   );
 }
