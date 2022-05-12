@@ -46,7 +46,7 @@ const questions = [
     },
     commentaire:
       "À éteindre toutes les lumières, s'il n'y a plus personne dans la pièce bien sûr ! C'est un éco-geste permettant une économie d'énergie et c'est facile pour tous. Les laisser allumer, c'est gaspiller de l'électricité. Il existe des ampoules basse consommation qui sont économiques et qui peuvent être installées partout à la maison. Le mieux, c'est de privilégier la lumière naturelle, près d'une fenêtre, pour lire ou travailler.",
-    img: "https://trello.com/1/cards/627d1782921c492335df2b0c/attachments/627d1d31062c1548ec3350e8/previews/627d1d31062c1548ec33511d/download/electricite-ecolo-300x302.png",
+    img: "https://quiz.familiscope.fr/library/bayard_presse_0/images/2020/10/electricite-ecolo-300x302.png",
     type: "enfant",
   },
   {
@@ -167,7 +167,7 @@ const questions = [
     },
     commentaire:
       "Les déchets jetés sont une source de pollution visuelle mais contribuent aussi à polluer les sols, l’eau ou à menacer la biodiversité. À titre d’exemple, un mégot jeté peut polluer 500 litres d’eau ou encore un mètre cube de neige.",
-    img: "https://trello.com/1/cards/627d161c1a66ed2cd202e3c6/attachments/627d16be67f1db447e137740/download/183151.1380884087.1.o1299137974.jpg",
+    img: "https://i.pinimg.com/736x/13/f6/d4/13f6d4dfba58d19703ca102536a54391--vintage-tags-dragon-ball.jpg",
     type: "adulte",
   },
   {
@@ -222,7 +222,7 @@ const questions = [
   {
     id: 9,
     question:
-      "En matière d’alimentation, quelle solution est la plus efficace ?Cette question est requise",
+      "En matière d’alimentation, quelle solution est la plus efficace ?",
     reponse1: {
       text: "A: Manger moins de viande",
       isCorrect: true,
@@ -250,7 +250,7 @@ const questions = [
       "Quelle action me permettrait de diminuer le plus mon empreinte carbone",
     reponse1: {
       text: "A: Baisser de 1°C la consigne de chauffage",
-      isCorrect: true,
+      isCorrect: false,
     },
     reponse2: {
       text: "B: Reporter d’un an l’achat d’un nouveau smartphone",
