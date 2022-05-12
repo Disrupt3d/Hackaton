@@ -7,9 +7,9 @@
 
 :root {
   /*Police and fonts */
-  --title-font: "roboto", sans-serif;
+  --title-font: "Atma", "cursive";
   --title-size: 48px;
-  --text-font: "roboto", sans-serif;
+  --text-font: "Halant", "roboto";
   --text-size: 24px;
   --responsive-text-size: 16px;
   --responsive-title-size: 32px;
