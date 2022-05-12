@@ -1,9 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Boutton from "@components/Boutton";
-import accueildata from "../data/accueildata";
 import { Link } from "react-router-dom";
-
-// import { HashLink as Link } from "react-router-hash-link";
+import Boutton from "../components/Boutton";
+import accueildata from "../data/accueildata";
 
 import "../styles/Accueil.css";
 
