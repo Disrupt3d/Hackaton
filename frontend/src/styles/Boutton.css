@@ -3,9 +3,12 @@
   border: none;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   margin: 1rem 1rem;
   cursor: pointer;
   color: #e8e8e8;
   text-transform: uppercase;
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: var(--title-size);
 }

@@ -1,5 +1,5 @@
 .header {
-  background-color: black;
+  background-color: var(--backgroundColor);
   display: flex;
   align-items: center;
 }
@@ -24,7 +24,7 @@
   padding: 1rem 2rem;
   position: relative;
   font-family: var(--title-font);
-  color: white;
+  color: black;
 }
 
 .menuWrapper li:hover {
