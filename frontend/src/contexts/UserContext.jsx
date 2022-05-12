@@ -10,5 +10,3 @@ export function ContextProvider({ children }) {
     </UserContext.Provider>
   );
 }
-
-export default ContextProvider;
