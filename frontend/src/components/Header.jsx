@@ -1,28 +1,15 @@
-import React, { useState } from "react";
-import Navbar from "./Navbar";
+import React from "react";
+import logo from "../assets/logo-variante.png";
+import accueildata from "../data/accueildata";
 
 import "../styles/Header.css";
+import Boutton from "./Boutton";
 
 function Header() {
-  const [showMenu, setShowMenu] = useState(false);
-  const handleShowMenu = () => {
-    setShowMenu(!showMenu);
-  };
   return (
-    <div className={`header ${showMenu ? "show-nav" : "hide-nav"}`}>
-      <div className="menuWrapper">
-        <Navbar handleShowMenu={handleShowMenu} />
-      </div>
-
-      <button
-        type="button"
-        className="navbar-burger"
-        onClick={() => {
-          setShowMenu(!showMenu);
-        }}
-      >
-        <span className="bar" />
-      </button>
+    <div className="header-content">
+      <img src={logo} alt="logo" width="200px" />
+      <button className="backtomenu">Retour au menu</button>
     </div>
   );
 }

@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: var(--BackgroundColor);
+}
+
 /* RESET */
 
 /* RESPONSIVE BREAKPOINT TABLETS */

@@ -9,6 +9,9 @@ const accueildata = [
     link: "/page01",
     fleche: true,
   },
+  {
+    name: "Retour au Menu",
+  },
 ];
 
 export default accueildata;

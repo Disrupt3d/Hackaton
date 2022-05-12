@@ -1,4 +1,4 @@
-body {
+.accueil-wrapper {
   height: 100vh;
   background-color: var(--BackgroundColor);
   background-image: url("../assets/logo-xl.png");
