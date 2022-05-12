@@ -76,12 +76,6 @@ const missions = [
     img: "http://jwhy.fr/client/lagoa/anthonyhab/img/Anthony-Habitat-guide-chauffage-illus-conveteur.png",
     type: "parent",
   },
-  {
-    id: 11,
-    mission: "",
-    img: "",
-    type: "enfant",
-  },
 ];
 
 export default missions;
