@@ -6,8 +6,9 @@ function Boutton({ el }) {
   return (
     <div>
       <button className="button-main" type="button">
-        {el.name}
+        {el.name ? el.name : ""}
         {el.fleche ? <img className="fleche" src={fleche} alt="fleche" /> : ""}
+        {el.text ? el.text : ""}
       </button>
     </div>
   );
