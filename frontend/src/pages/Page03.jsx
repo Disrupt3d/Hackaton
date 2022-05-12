@@ -14,14 +14,26 @@ function Page03() {
             .filter((e) => e.type === "enfant")
             .map((mission) => (
               <div key={mission.id} className="mission-card">
-                <p>{mission.mission}</p>
+                <p className="mission-desc">{mission.mission}</p>
+                <img
+                  src={mission.img}
+                  className="mission-image"
+                  alt="illustration de la mission"
+                />
+                <input type="checkbox" className="mission-checkbox" />
               </div>
             ))
         : missions
             .filter((e) => e.type === "adulte")
             .map((mission) => (
               <div key={mission.id} className="mission-card">
-                <p>{mission.mission}</p>
+                <p className="mission-desc">{mission.mission}</p>
+                <img
+                  src={mission.img}
+                  className="mission-image"
+                  alt="illustration de la mission"
+                />
+                <input type="checkbox" className="mission-checkbox" />
               </div>
             ))}
     </div>
