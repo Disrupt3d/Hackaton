@@ -13,7 +13,6 @@ import Page04 from "./pages/Page04";
 import "./App.css";
 
 function App() {
-  const [user, setUser] = useState('Enfant');
   return (
     <UserContext.Provider value={{ user: user, setUser: setUser }} >
     <BrowserRouter>
@@ -28,6 +27,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+
     </UserContext.Provider>
   );
 }
