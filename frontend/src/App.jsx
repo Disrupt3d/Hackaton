@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UserContext from "./contexts/UserContext";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -13,6 +14,7 @@ import "./App.css";
 
 function App() {
   return (
+    <UserContext.Provider value={{ user: user, setUser: setUser }} >
     <BrowserRouter>
       <Header />
       <Routes>
@@ -25,6 +27,8 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+
+    </UserContext.Provider>
   );
 }
 
