@@ -20,7 +20,6 @@ function App() {
           <Route path="/page02/:age" element={<Page02 />} />
           <Route path="/page03/:age" element={<Page03 />} />
           <Route path="/page04/:age" element={<Page04 />} />
-          <Route path="*" element={<Page04 />} />
         </Routes>
       </BrowserRouter>
     </ContextProvider>

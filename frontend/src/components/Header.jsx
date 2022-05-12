@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import logo from "../assets/logo-variante.png";
 import "../styles/Header.css";
 
 function Header() {
+  const { age } = useParams();
   return (
     <div className="header-content">
       <img src={logo} alt="logo" width="200px" />
-      <Link to="/page01">
+      <Link to={`/page01/${age}`}>
         <button className="backtomenu" type="button">
           Retour au menu
         </button>
