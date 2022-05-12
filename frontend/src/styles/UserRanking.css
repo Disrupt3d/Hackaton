@@ -1,0 +1,45 @@
+.UserRankingRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.UserRankingName > h2 {
+    color: #E8E8E8;
+}
+
+.UserRankingRating {
+    background-color: var(--color2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.UserRankingRating2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    padding: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.UserRankingRating2 > p {
+    color: #E8E8E8;
+}
+
+.UserRankingRating > p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.questions {
+    margin-right: 13px;
+}
