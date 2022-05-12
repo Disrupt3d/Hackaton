@@ -1,0 +1,7 @@
+.mission-card {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color2);
+    border-radius: var(--border-radius);
+    align-items: center;
+}
