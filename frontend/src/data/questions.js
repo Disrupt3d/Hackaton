@@ -250,7 +250,7 @@ const questions = [
       "Quelle action me permettrait de diminuer le plus mon empreinte carbone",
     reponse1: {
       text: "A: Baisser de 1°C la consigne de chauffage",
-      isCorrect: false,
+      isCorrect: true,
     },
     reponse2: {
       text: "B: Reporter d’un an l’achat d’un nouveau smartphone",
