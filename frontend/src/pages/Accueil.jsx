@@ -17,10 +17,10 @@ function Accueil() {
       />
 
       <div className="btn-container">
-        <Link to="/page01">
+        <Link to="/page01/enfant">
           <Boutton el={accueildata[0]} />
         </Link>
-        <Link to="/page01">
+        <Link to="/page01/parent">
           <Boutton el={accueildata[1]} />
         </Link>
       </div>
