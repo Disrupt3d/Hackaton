@@ -1,4 +1,6 @@
 .button-main {
+  display: flex;
+  align-items: center;
   background-color: var(--color2);
   border: none;
   box-shadow: var(--box-shadow);
@@ -11,4 +13,7 @@
   font-family: var(--title-font);
   font-weight: bold;
   font-size: var(--title-size);
+}
+.fleche {
+  margin-left: 2rem;
 }
