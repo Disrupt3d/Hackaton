@@ -168,7 +168,7 @@ const questions = [
     commentaire:
       "Les déchets jetés sont une source de pollution visuelle mais contribuent aussi à polluer les sols, l’eau ou à menacer la biodiversité. À titre d’exemple, un mégot jeté peut polluer 500 litres d’eau ou encore un mètre cube de neige.",
     img: "https://i.pinimg.com/736x/13/f6/d4/13f6d4dfba58d19703ca102536a54391--vintage-tags-dragon-ball.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 7,
@@ -192,7 +192,7 @@ const questions = [
     commentaire:
       "C'est la vapeur d’eau qui contribue pour 60 % à l’effet de serre. Les émissions de ce gaz par l’humanité à travers l’industrie n’ont cependant qu’un effet limité car la durée de vie de la vapeur d’eau est courte.",
     img: "https://c8.alamy.com/compfr/hwwxhg/un-dessin-de-paysage-avec-des-nuages-de-gaz-a-effet-de-serre-tels-que-le-methane-l-oxyde-de-carbone-du-dioxyde-de-carbone-et-l-ozone-l-augmentation-dans-l-atmosphere-hwwxhg.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 8,
@@ -217,7 +217,7 @@ const questions = [
     commentaire:
       "Il s'agit de la déforestation, qui représente aujourd'hui environ 15% de nos émissions.",
     img: "https://cdn.radiofrance.fr/s3/cruiser-production/2018/10/a7b70bc8-4200-484d-b170-c017968ddd34/870x489_gettyimages-628813428.jpg",
-    type: "aldute",
+    type: "parent",
   },
   {
     id: 9,
@@ -242,7 +242,7 @@ const questions = [
     commentaire:
       "Manger moins de viande serait la solution la plus efficace selon les scientifiques du projet Drawdown.En plus de cela, les animaux nous en serait sans doute reconaissant",
     img: "https://marsactu.fr/wp-content/uploads/2017/10/image-quand-le-riz-camarguais-raconte-l-histoire-des-indochinois-immigres-de-force-en-provence-02.jpg",
-    type: "enfant",
+    type: "parent",
   },
   {
     id: 10,
@@ -267,7 +267,7 @@ const questions = [
     commentaire:
       "Il nous faudrait baisser la consigne de chauffage. Mais sois libre de suivre les autres suggestions, ça ne fera pas de mal...",
     img: "https://cdn-s-www.lalsace.fr/images/E3ED48F5-04EC-4031-B0B7-BDC4698180AC/NW_raw/plus-ecologiques-les-cosmetiques-solides-suscitent-l-engouement-du-public-mais-tous-ne-se-valent-pas-dessin-phil-umbdenstock-1646218322.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 11,

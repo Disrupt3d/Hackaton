@@ -46,35 +46,35 @@ const missions = [
     mission:
       "Ta mission, si tu l'acceptes, est d'aller ramasser les déchets laissés au sol dans l'endroit de ton choix, et bien sûr, en famille ! ",
     img: "https://i.ibb.co/0QYTqxx/dechetfamille.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 7,
     mission:
       "Ta mission, si tu l'acceptes, est d'essayer de faire comprendre à ton ou tes enfants ce que sont les gaz à effet de faire et en quoi ils contribuent ou réchauffement climatique !",
     img: "http://images.jedessine.com/_uploads/_tiny_galerie/20090728/ldv-schema-rechauffement-source_eth.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 8,
     mission:
       "Ta mission, si tu l'acceptes, est d'aller planté des arbres en famille, beaucoup d'association le proposent de manière bénévole !",
     img: "https://img.freepik.com/vecteurs-libre/famille-plante-arbre-conservation-nature-illustration-concept-amenagement-paysager-dans-style-plat-dessin-anime_256722-207.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 9,
     mission:
       "Ta mission, si tu l'acceptes, est de faire en sorte de motiver ta famille à diminuer votre consommation de viande, même un peu, c'est toujours bon à prendre !",
     img: "https://thumbs.dreamstime.com/b/mignon-et-heureux-enfant-mange-des-fruits-de-salade-l%C3%A9gumes-159770219.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 10,
     mission:
       "Ta mission, si tu l'acceptes, est de prendre l'habitude de mettre le chauffage juste un peu moins fort, quitte à rajouter une petite couche de vêtement !",
     img: "http://jwhy.fr/client/lagoa/anthonyhab/img/Anthony-Habitat-guide-chauffage-illus-conveteur.png",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 11,
