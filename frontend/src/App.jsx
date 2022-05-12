@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UserContext from "./contexts/UserContext";
 
 import Header from "@components/Header";
 import Footer from "@components/Footer";
@@ -12,7 +13,9 @@ import Page04 from "./pages/Page04";
 import "./App.css";
 
 function App() {
+  const [user, setUser] = useState('Enfant');
   return (
+    <UserContext.Provider value={{ user: user, setUser: setUser }} >
     <BrowserRouter>
       <Header />
       <Routes>
@@ -25,6 +28,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    </UserContext.Provider>
   );
 }
 
