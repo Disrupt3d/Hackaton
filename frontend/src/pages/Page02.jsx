@@ -58,9 +58,16 @@ function Page02() {
   }
 
   function handleNext() {
-    setCongrats("Mauvaise réponse");
-    setCommentaire(true);
-    setIndex(index + 1);
+    if (index < questionslist.length - 1) {
+      setCongrats("Mauvaise réponse");
+      setCommentaire(true);
+      setIndex(index + 1);
+    } else {
+      setCongrats(
+        "Bravo ! Tu as terminé le quiz ! Maintenant invite le reste de ta famille à en faire autant !"
+      );
+      setCommentaire(false);
+    }
   }
 
   return (
