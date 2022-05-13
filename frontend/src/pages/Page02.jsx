@@ -1,13 +1,10 @@
-import React, { useContext, useState, useEffect } from "react";
-import { UserContext } from "../contexts/UserContext";
+import React, { useState, useEffect } from "react";
 import Boutton from "../components/Boutton";
 import "../styles/Page02.css";
-import Header from "@components/Header";
+import Header from "../components/Header";
 import questions from "../data/questions";
 
 function Page02() {
-  const { question } = useContext(UserContext);
-
   const [index, setIndex] = useState(0);
   const [commentaire, setCommentaire] = useState(true);
   const [answer, setAnswer] = useState();
@@ -18,10 +15,9 @@ function Page02() {
       setAnswer("reponse1");
     } else if (questions[index].reponse2.isCorrect === true) {
       setAnswer("reponse2");
-    }
-    if (questions[index].reponse3.isCorrect === true) {
+    } else if (questions[index].reponse3.isCorrect === true) {
       setAnswer("reponse3");
-    } else {
+    } else if (questions[index].reponse4.isCorrect === true) {
       setAnswer("reponse4");
     }
   }, [congrats]);
@@ -56,7 +52,6 @@ function Page02() {
     setCommentaire(true);
     setIndex(index + 1);
   }
-  console.log(answer);
 
   return (
     <div className="questions-wrapper">
@@ -64,17 +59,17 @@ function Page02() {
       <div className="wrap-container">
         <img className="question-img" src={questions[index].img} alt="" />
         <div className="answer-content">
-          <button className="useless-btn" onClick={handleClick1}>
+          <button className="useless-btn" onClick={handleClick1} type="button">
             <Boutton el={questions[index].reponse1} />
           </button>
 
-          <button className="useless-btn" onClick={handleClick2}>
+          <button className="useless-btn" onClick={handleClick2} type="button">
             <Boutton el={questions[index].reponse2} />
           </button>
-          <button className="useless-btn" onClick={handleClick3}>
+          <button className="useless-btn" onClick={handleClick3} type="button">
             <Boutton el={questions[index].reponse3} />
           </button>
-          <button className="useless-btn" onClick={handleClick4}>
+          <button className="useless-btn" onClick={handleClick4} type="button">
             <Boutton el={questions[index].reponse4} />
           </button>
         </div>
@@ -87,7 +82,7 @@ function Page02() {
           {questions[index].commentaire}
         </div>
       )}
-      <button className="backtomenu" onClick={handleNext}>
+      <button className="backtomenu" onClick={handleNext} type="button">
         Question suivante
       </button>
     </div>
