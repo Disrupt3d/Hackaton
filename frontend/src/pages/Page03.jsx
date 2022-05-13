@@ -9,7 +9,7 @@ import "../styles/Page03.css";
 function Page03() {
   const { age } = useParams();
   return (
-    <div>
+    <div className="mission-container">
       <Header />
       <h1 id="missions-title">Missions</h1>
       {missions

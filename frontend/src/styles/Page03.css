@@ -6,6 +6,10 @@
     margin-bottom: 5rem ;
 }
 
+.mission-container {
+	margin-bottom: 3rem;
+}
+
 .mission-all {
     display: flex;
     flex-direction: row;
@@ -33,6 +37,7 @@
 
 .mission-desc {
     font: (--title-font);
+	font-size: 20px;
     color: #e8e8e8;
     margin: 25px;
 }
