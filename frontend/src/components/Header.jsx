@@ -8,6 +8,7 @@ function Header() {
   return (
     <div className="header-content">
       <img src={logo} alt="logo" width="200px" />
+      <h1 className="app-name">Educ' Tes Vieux</h1>
       <Link to={`/page01/${age}`}>
         <button className="backtomenu" type="button">
           Retour au menu

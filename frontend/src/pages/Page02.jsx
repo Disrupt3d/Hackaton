@@ -87,7 +87,7 @@ function Page02() {
           {questions[index].commentaire}
         </div>
       )}
-      <button className="backtomenu" onClick={handleNext}>
+      <button className="nextquestion" onClick={handleNext}>
         Question suivante
       </button>
     </div>
