@@ -1,0 +1,60 @@
+#h1 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    font-family: var(--title-font);
+    justify-content: center;
+    color: #fff;
+}
+
+.badge-and-level {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -10px;
+}
+
+.badge {
+    width: 100px;
+    margin-left: 10rem;
+}
+
+.level {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    font-family: var(--title-font);
+    margin-right: 10rem;
+    justify-content: center;
+}
+
+.button-badge{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color2);
+    border: none;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 0.5rem 2rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    color: #e8e8e8;
+    text-transform: uppercase;
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: 5rem;
+    font-size: 3rem;
+  }
+
+  .star {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    margin-left: 100%;
+    margin-top: -50px;
+  }
