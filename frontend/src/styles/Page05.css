@@ -1,7 +1,7 @@
 .titreClassement {
-    display: flex;
-    justify-content: center;
-    font-size: 5rem;
-    margin-bottom: .5rem;
-    color: #E8E8E8;
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+  color: #e8e8e8;
 }

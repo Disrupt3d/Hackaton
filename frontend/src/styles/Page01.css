@@ -1,8 +1,33 @@
 .menu-container {
-  margin: auto;
-  width: fit-content;
+  margin-top: 2rem;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.page01-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-prenom {
+  color: #e8e8e8;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+.menu-level {
+  color: #e8e8e8;
+  font-size: 30px;
+  text-align: center;
+  margin: 2rem auto;
 }

@@ -141,7 +141,8 @@ const questions = [
       text: "Le fait de poster des compotes sur les réseaux sociaux",
       isCorrect: false,
     },
-    commentaire: "",
+    commentaire:
+      "Et oui ! Tu peux réutiliser tes déchets organiques pour rendre les sols plus fertiles !",
     img: "https://coeurdechartreuse.fr/wp-content/uploads/2021/04/Compostage-paillage.png",
     type: "enfant",
   },
@@ -253,7 +254,7 @@ const questions = [
       isCorrect: true,
     },
     reponse2: {
-      text: "Reporter d’un an l’achat d’un nouveau smartphone",
+      text: "Reporter l’achat d’un nouveau smartphone",
       isCorrect: false,
     },
     reponse3: {
