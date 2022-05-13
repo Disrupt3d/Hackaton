@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UserContext } from "../contexts/UserContext";
 
 function UserRanking() {
+  const { prenom } = useContext(UserContext);
+
   return (
     <div>
       <div className="UserRankingRow">
@@ -39,7 +42,7 @@ function UserRanking() {
 
       <div className="UserRankingRow">
         <div className="UserRankingName">
-          <h2>Dorian</h2>
+          <h2>{prenom}</h2>
         </div>
         <div className="UserRankingRatingSelected">
           <p className="niveau">48</p>

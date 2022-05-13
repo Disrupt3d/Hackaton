@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "@components/Header";
-import UserRanking from "@components/UserRanking";
+import Header from "../components/Header";
+import UserRanking from "../components/UserRanking";
 
 import "../styles/Page05.css";
 import "../styles/UserRanking.css";
