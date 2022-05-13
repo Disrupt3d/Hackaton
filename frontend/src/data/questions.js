@@ -4,19 +4,19 @@ const questions = [
     question:
       "Je rentre de la plage et du sport et j'ai bien transpiré. Pour économiser l'eau, dois-je :",
     reponse1: {
-      text: "A: Attendre qu'il pleuve",
+      text: "Attendre qu'il pleuve",
       isCorrect: false,
     },
     reponse2: {
-      text: "B: Me plonger dans un bain",
+      text: "Me plonger dans un bain",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: Prendre une douche rapide",
+      text: "Prendre une douche rapide",
       isCorrect: true,
     },
     reponse4: {
-      text: "D: Ne plus jamais me laver",
+      text: "Ne plus jamais me laver",
       isCorrect: false,
     },
     commentaire:
@@ -29,43 +29,43 @@ const questions = [
     question:
       "Quand je sors d'une pièce le soir, à la maison, à quoi dois-penser ?",
     reponse1: {
-      text: "A: À bien emporter mon GPS pour ne pas me perdre ",
+      text: "À bien emporter mon GPS pour ne pas me perdre ",
       isCorrect: false,
     },
     reponse2: {
-      text: "B: À ouvrir la fenêtre et à monté le chauffage",
+      text: "À ouvrir la fenêtre et à monté le chauffage",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: À les laisser allumer",
+      text: "À les laisser allumer",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: À éteindre toutes les lumières",
+      text: "À éteindre toutes les lumières",
       isCorrect: true,
     },
     commentaire:
       "À éteindre toutes les lumières, s'il n'y a plus personne dans la pièce bien sûr ! C'est un éco-geste permettant une économie d'énergie et c'est facile pour tous. Les laisser allumer, c'est gaspiller de l'électricité. Il existe des ampoules basse consommation qui sont économiques et qui peuvent être installées partout à la maison. Le mieux, c'est de privilégier la lumière naturelle, près d'une fenêtre, pour lire ou travailler.",
-    img: "https://trello.com/1/cards/627d1782921c492335df2b0c/attachments/627d1d31062c1548ec3350e8/previews/627d1d31062c1548ec33511d/download/electricite-ecolo-300x302.png",
+    img: "https://quiz.familiscope.fr/library/bayard_presse_0/images/2020/10/electricite-ecolo-300x302.png",
     type: "enfant",
   },
   {
     id: 2,
     question: "J'ai cassé un de mes jouets, que dois-je faire ?",
     reponse1: {
-      text: "A: Je le jette par la fenêtre",
+      text: "Je le jette par la fenêtre",
       isCorrect: false,
     },
     reponse2: {
-      text: "B: J'en demande un autre pour le remplacer",
+      text: "J'en demande un autre pour le remplacer",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: J'essaye de le réparer",
+      text: "J'essaye de le réparer",
       isCorrect: true,
     },
     reponse4: {
-      text: "D: Je l'enterre dans le jardin comme un pirate",
+      text: "Je l'enterre dans le jardin comme un pirate",
       isCorrect: false,
     },
     commentaire:
@@ -78,19 +78,19 @@ const questions = [
     question:
       "Je pars faire des courses avec mes parents pour acheter des fruits, lesquels vais-je privilégier ?",
     reponse1: {
-      text: "A: Ceux qui viennent d'Europe ?",
+      text: "Ceux qui viennent d'Europe ?",
       isCorrect: false,
     },
     reponse2: {
-      text: "B: Ceux qui viennent du producteur de ma région ?",
+      text: "Ceux qui viennent du producteur de ma région ?",
       isCorrect: true,
     },
     reponse3: {
-      text: "C: Ceux qui viennent d'Asie ?",
+      text: "Ceux qui viennent d'Asie ?",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: Beurk ! C'est pas bon les fruits !",
+      text: "Beurk ! C'est pas bon les fruits !",
       isCorrect: false,
     },
     commentaire:
@@ -102,19 +102,19 @@ const questions = [
     id: 4,
     question: "Pour aller à la plage, quel est le moyen le plus écolo ?",
     reponse1: {
-      text: "A: En voiture avec papa ou maman",
+      text: "En voiture avec papa ou maman",
       isCorrect: false,
     },
     reponse2: {
-      text: "B: À pied",
+      text: "À pied",
       isCorrect: true,
     },
     reponse3: {
-      text: "C: En bus non électrique",
+      text: "En bus non électrique",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: En jet privé",
+      text: "En jet privé",
       isCorrect: false,
     },
     commentaire:
@@ -126,22 +126,23 @@ const questions = [
     id: 5,
     question: "Sais-tu ce que c'est que le compostage ?",
     reponse1: {
-      text: "A: Une utilisation de certains déchets pour rendre les terres plus fertiles",
+      text: "Récupérer les déchets pour des sols plus fertiles",
       isCorrect: true,
     },
     reponse2: {
-      text: "B: Une entreprise qui livre les colis à vélo",
+      text: "Une entreprise qui livre les colis à vélo",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: Des billets de train pris sur internet",
+      text: "Des billets de train pris sur internet",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: Le fait de poster des compotes sur les réseaux sociaux",
+      text: "Le fait de poster des compotes sur les réseaux sociaux",
       isCorrect: false,
     },
-    commentaire: "",
+    commentaire:
+      "Et oui ! Tu peux réutiliser tes déchets organiques pour rendre les sols plus fertiles !",
     img: "https://coeurdechartreuse.fr/wp-content/uploads/2021/04/Compostage-paillage.png",
     type: "enfant",
   },
@@ -150,147 +151,124 @@ const questions = [
     question:
       "À quelle vitesse se dégrade une cannette de soda dans la nature ?",
     reponse1: {
-      text: "A : Jusqu’à 10 ans",
+      text: "Jusqu’à 10 ans",
       isCorrect: false,
     },
     reponse2: {
-      text: "B: Jusqu’à 8 mois",
+      text: "Jusqu’à 8 mois",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: Jusqu’à 100 ans",
+      text: "Jusqu’à 100 ans",
       isCorrect: true,
     },
     reponse4: {
-      text: "D: Jusqu’à 6 semaines",
+      text: "Jusqu’à 6 semaines",
       isCorrect: false,
     },
     commentaire:
       "Les déchets jetés sont une source de pollution visuelle mais contribuent aussi à polluer les sols, l’eau ou à menacer la biodiversité. À titre d’exemple, un mégot jeté peut polluer 500 litres d’eau ou encore un mètre cube de neige.",
-    img: "https://trello.com/1/cards/627d161c1a66ed2cd202e3c6/attachments/627d16be67f1db447e137740/download/183151.1380884087.1.o1299137974.jpg",
-    type: "adulte",
+    img: "https://i.pinimg.com/736x/13/f6/d4/13f6d4dfba58d19703ca102536a54391--vintage-tags-dragon-ball.jpg",
+    type: "parent",
   },
   {
     id: 7,
     question: "Quel gaz a l'effet de serre le plus puissant ?",
     reponse1: {
-      text: "A: L'argon",
+      text: "L'argon",
       isCorrect: false,
     },
     reponse2: {
-      text: "B: CO2",
+      text: "CO2",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: Méthane",
+      text: "Méthane",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: Vapeur d'eau",
+      text: "Vapeur d'eau",
       isCorrect: true,
     },
     commentaire:
       "C'est la vapeur d’eau qui contribue pour 60 % à l’effet de serre. Les émissions de ce gaz par l’humanité à travers l’industrie n’ont cependant qu’un effet limité car la durée de vie de la vapeur d’eau est courte.",
     img: "https://c8.alamy.com/compfr/hwwxhg/un-dessin-de-paysage-avec-des-nuages-de-gaz-a-effet-de-serre-tels-que-le-methane-l-oxyde-de-carbone-du-dioxyde-de-carbone-et-l-ozone-l-augmentation-dans-l-atmosphere-hwwxhg.jpg",
-    type: "adulte",
+    type: "parent",
   },
   {
     id: 8,
     question:
       "La production d'énergie est notre source principale d'émissions de CO2. Quelle est la seconde ?",
     reponse1: {
-      text: "A: La déforestation",
+      text: "La déforestation",
       isCorrect: true,
     },
     reponse2: {
-      text: "B: L'activité volcanique",
+      text: "L'activité volcanique",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: Les flatulences de vaches",
+      text: "Les flatulences de vaches",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: Le Burning Man",
+      text: "Le Burning Man",
       isCorrect: false,
     },
     commentaire:
       "Il s'agit de la déforestation, qui représente aujourd'hui environ 15% de nos émissions.",
     img: "https://cdn.radiofrance.fr/s3/cruiser-production/2018/10/a7b70bc8-4200-484d-b170-c017968ddd34/870x489_gettyimages-628813428.jpg",
-    type: "aldute",
+    type: "parent",
   },
   {
     id: 9,
     question:
-      "En matière d’alimentation, quelle solution est la plus efficace ?Cette question est requise",
+      "En matière d’alimentation, quelle solution est la plus efficace ?",
     reponse1: {
-      text: "A: Manger moins de viande",
+      text: "Manger moins de viande",
       isCorrect: true,
     },
     reponse2: {
-      text: "B: Installer des foyers de cuisson « propres » dans les pays en développement",
+      text: "Installer des foyers de cuisson « propres »",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: Mettre en place une culture du riz plus efficiente et durable",
+      text: "Mettre en place une culture du riz plus durable",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: Arrêtez le thon rouge",
+      text: "Arrêtez le thon rouge",
       isCorrect: false,
     },
     commentaire:
       "Manger moins de viande serait la solution la plus efficace selon les scientifiques du projet Drawdown.En plus de cela, les animaux nous en serait sans doute reconaissant",
     img: "https://marsactu.fr/wp-content/uploads/2017/10/image-quand-le-riz-camarguais-raconte-l-histoire-des-indochinois-immigres-de-force-en-provence-02.jpg",
-    type: "enfant",
+    type: "parent",
   },
   {
     id: 10,
     question:
       "Quelle action me permettrait de diminuer le plus mon empreinte carbone",
     reponse1: {
-      text: "A: Baisser de 1°C la consigne de chauffage",
+      text: "Baisser de 1°C la consigne de chauffage",
       isCorrect: true,
     },
     reponse2: {
-      text: "B: Reporter d’un an l’achat d’un nouveau smartphone",
+      text: "Reporter l’achat d’un nouveau smartphone",
       isCorrect: false,
     },
     reponse3: {
-      text: "C: Consommer un repas par semaine sans viande",
+      text: "Consommer un repas par semaine sans viande",
       isCorrect: false,
     },
     reponse4: {
-      text: "D: Eteindre les lumières en quittant une pièce",
+      text: "Eteindre les lumières en quittant une pièce",
       isCorrect: false,
     },
     commentaire:
       "Il nous faudrait baisser la consigne de chauffage. Mais sois libre de suivre les autres suggestions, ça ne fera pas de mal...",
     img: "https://cdn-s-www.lalsace.fr/images/E3ED48F5-04EC-4031-B0B7-BDC4698180AC/NW_raw/plus-ecologiques-les-cosmetiques-solides-suscitent-l-engouement-du-public-mais-tous-ne-se-valent-pas-dessin-phil-umbdenstock-1646218322.jpg",
-    type: "adulte",
-  },
-  {
-    id: 11,
-    question: "",
-    reponse1: {
-      text: "A: ",
-      isCorrect: false,
-    },
-    reponse2: {
-      text: "B: ",
-      isCorrect: false,
-    },
-    reponse3: {
-      text: "C: ",
-      isCorrect: false,
-    },
-    reponse4: {
-      text: "D: ",
-      isCorrect: false,
-    },
-    commentaire: "",
-    img: "",
-    type: "",
+    type: "parent",
   },
 ];
 
