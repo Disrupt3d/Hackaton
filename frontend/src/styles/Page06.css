@@ -1,0 +1,164 @@
+.error404_logo{
+    width: 900px;
+}
+
+.error404_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error404_title {
+    margin-top: 2rem;
+    font-size: 5rem;
+    transform: scale(1);
+  animation: pulse2 2s infinite;
+  color: white;
+}
+.error404_title2 {
+    transform: scale(1);
+    animation: pulse2 2s infinite;
+    color: white;
+    }
+
+.error404_total_container{
+    display: flex;
+    padding: 1rem;
+
+}
+
+.errror404_color1{
+    font-size: 1.3rem;
+    color: var(--color2);
+}
+
+.errror404_color1{
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+.set * {
+    height: auto;
+    opacity: 50%;
+    transition: ease-in-out 2s;
+    margin: 5rem 0;
+    text-align: center;
+  }
+  .set {
+    font-weight: bold;
+  }
+  .set2 {
+    font-weight: bold;
+  }
+  .set2 * {
+    height: auto;
+    opacity: 50%;
+    transition: ease-in-out 2s;
+    margin: 5rem 1rem 5rem;
+    text-align: center;
+  }
+  .set h3:nth-child(6) {
+    left: 70%;
+    animation: animate 30s linear infinite;
+  }
+  .set2 h3:nth-child(6) {
+    left: 40%;
+    animation: animate 30s linear infinite;
+  }
+  
+  .set2 h3:nth-child(3) {
+    left: 30%;
+    animation: animate 30s linear infinite;
+  }
+  
+  .set2 h3:nth-child(1) {
+    animation: animate 30s linear infinite;
+    left: 50%;
+  }
+  .set2 h3:nth-child(2) {
+    animation: animate 30s linear infinite;
+    left: 60%;
+  }
+  
+  .set2 h3:nth-child(4) {
+    animation: animate 30s linear infinite;
+    left: 10%;
+  }
+  
+  .set2 h3:nth-child(5) {
+    animation: animate 30s linear infinite;
+    left: 50%;
+  }
+  
+  .set h3:nth-child(1) {
+    left: 20%;
+    animation: animate 30s linear infinite;
+  }
+  .set h3:nth-child(2) {
+    left: 20%;
+    animation: animate 30s linear infinite;
+  }
+  .set h3:nth-child(3) {
+    left: 40%;
+    animation: animate 30s linear infinite;
+  }
+  .set h3:nth-child(4) {
+    left: 0%;
+    animation: animate 30s linear infinite;
+  }
+  .set h3:nth-child(5) {
+    left: 85%;
+    animation: animate 30s linear infinite;
+  }
+  .set h3:nth-child(6) {
+    left: 5%;
+    animation: animate 30s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      top: -10%;
+      transform: translateX(-20px, 0px) rotate(0deg);
+    }
+    10% {
+      opacity: 1;
+      transform: translateX(-20px, 50px) rotate(0deg);
+    }
+    20% {
+      transform: translate(-20px, 100px) rotate(60deg);
+    }
+    40% {
+      transform: translate(-20px, 200px) rotate(100deg);
+    }
+    60% {
+      transform: translate(20px, 250px) rotate(180deg);
+    }
+    80% {
+      transform: translate(-20px, 300px) rotate(230deg);
+    }
+    100% {
+      transform: translate(-20px, 400px) rotate(280deg);
+    }
+  }
+
+  
+@keyframes pulse2 {
+    0% {
+        transform: scale(0.95);
+        
+    }
+  
+    70% {
+        transform: scale(1);
+       
+    }
+  
+    100% {
+        transform: scale(0.95);
+       
+    }
+  }
+  
+  
