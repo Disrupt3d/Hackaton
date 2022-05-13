@@ -25,6 +25,7 @@ const UserRanking = () => {
                 <p className="missions">25</p>
             </div>
         </div>
+
         <div className='UserRankingRow'>
             <div className="UserRankingName">
                 <h2>Papa</h2>
@@ -60,22 +61,6 @@ const UserRanking = () => {
                 <p className="missions">10</p>
             </div>
         </div>
-
-        <div className='UserRankingRow'>
-            <div className="UserRankingName">
-                <h2>Papy</h2>
-            </div>
-            <div className="UserRankingRating">
-                <p className='niveau'>23</p>
-                <p className="badges">3</p>
-                <p className="questions">21</p>
-                <p className="missions">5</p>
-            </div>
-        </div>
-
-
-
-
 
     </div>
   )

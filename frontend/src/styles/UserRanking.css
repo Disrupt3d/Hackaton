@@ -3,12 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 85%;
     margin: 0 auto 0.9rem;
+    font-size: 1.5rem;
 }
 
 .UserRankingName > h2 {
-    font-size: 1.7rem;
+    font-size: 2.8rem;
     color: #E8E8E8;
 }
 
@@ -18,9 +19,15 @@
     justify-content: space-around;
     align-items: center;
     width: 75%;
-    padding: 0.5rem;
+    padding: 1.5rem;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
+}
+
+.UserRankingRating > p,
+.UserRankingRatingSelected > p {
+    font-size: 2rem;
+    padding-top: 2px;
 }
 
 .UserRankingRatingSelected {
@@ -29,17 +36,17 @@
     justify-content: space-around;
     align-items: center;
     width: 75%;
-    padding: 0.5rem;
+    padding: 1.5rem;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
 }
-
 
 .UserRankingRating2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 75%;
+    width: 78%;
+    font-size: 2rem;
 }
 
 .UserRankingRating2 > p {
@@ -57,4 +64,8 @@
 
 .niveau {
     font-weight: 800;
+}
+
+.missions {
+    text-align: right;
 }
