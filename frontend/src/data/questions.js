@@ -29,7 +29,7 @@ const questions = [
     question:
       "Quand je sors d'une pièce le soir, à la maison, à quoi dois-penser ?",
     reponse1: {
-      text: "A: À bien emporter mon GPS pour ne pas me perdre dans la maison",
+      text: "A: À bien emporter mon GPS pour ne pas me perdre ",
       isCorrect: false,
     },
     reponse2: {
