@@ -9,7 +9,7 @@ function Page06() {
   useEffect(() => {
     const redirect = setTimeout(() => {
       navigate("/");
-    }, 15000);
+    }, 5000);
     return () => {
       clearTimeout(redirect);
     };
