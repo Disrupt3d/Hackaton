@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
 import { useParams } from "react-router-dom";
 import missions from "../data/missions";
@@ -9,8 +10,8 @@ function Page03() {
   const { age } = useParams();
   return (
     <div>
-      <h1>Missions</h1>
       <Header />
+      <h1 id="missions-title">Missions</h1>
       {missions
         .filter((e) => e.type === age)
         .map((mission) => (
@@ -22,7 +23,10 @@ function Page03() {
             />
             <div key={mission.id} className="mission-card">
               <p className="mission-desc">{mission.mission}</p>
-              <input type="checkbox" className="mission-checkbox" />
+              <div className="check">
+                <input type="checkbox" id="check" />
+                <label htmlFor="check" />
+              </div>
             </div>
           </div>
         ))}
