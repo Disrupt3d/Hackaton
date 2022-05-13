@@ -109,6 +109,9 @@ function Page02() {
           ) : null}
         </div>
       )}
+      <button className="nextquestion" onClick={handleNext}>
+        Question suivante
+      </button>
     </div>
   );
 }

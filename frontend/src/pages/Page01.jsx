@@ -4,6 +4,7 @@ import { UserContext } from "../contexts/UserContext";
 import Header from "../components/Header";
 import Boutton from "../components/Boutton";
 import menuData from "../data/menuData";
+import logo from "../assets/logo-xl.png";
 
 import "../styles/Page01.css";
 
@@ -11,12 +12,8 @@ function Page01() {
   const { prenom } = useContext(UserContext);
   const { age } = useParams();
   return (
-    <div>
-      <Header />
-      <div className="menu-user">
-        <h1 className="menu-prenom">Bienvenue : {prenom}</h1>
-        <p className="menu-level">Niveau : 48</p>
-      </div>
+    <div className="page01-wrapper">
+      <img src={logo} alt="" width="30%" height="30%" />  
       <div className="menu-container">
         {age === "enfant"
           ? menuData
@@ -33,6 +30,10 @@ function Page01() {
                   <Boutton el={el} />
                 </Link>
               ))}
+      </div>
+      <div className="menu-user">
+        <h1 className="menu-prenom">Bienvenue : {prenom}</h1>
+        <p className="menu-level">Niveau : 48</p>
       </div>
     </div>
   );
