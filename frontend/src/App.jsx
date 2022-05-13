@@ -8,7 +8,7 @@ import Page02 from "./pages/Page02";
 import Page03 from "./pages/Page03";
 import Page04 from "./pages/Page04";
 import Page05 from "./pages/Page05";
-
+import Page06 from "./pages/Page06";
 
 import "./App.css";
 
@@ -23,6 +23,7 @@ function App() {
           <Route path="/page03/:age" element={<Page03 />} />
           <Route path="/page04/:age" element={<Page04 />} />
           <Route path="/page05/:age" element={<Page05 />} />
+          <Route path="*" element={<Page06 />} />
         </Routes>
       </BrowserRouter>
     </ContextProvider>
