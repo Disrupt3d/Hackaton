@@ -93,9 +93,6 @@ function Page02() {
           </button>
         </div>
       </div>
-      <button className="backtomenu" onClick={handleNext} type="button">
-        Question suivante
-      </button>
       {commentaire ? (
         <div className="question-container">
           {questionslist[index].question}
@@ -109,7 +106,7 @@ function Page02() {
           ) : null}
         </div>
       )}
-      <button className="nextquestion" onClick={handleNext}>
+      <button className="nextquestion" type="button" onClick={handleNext}>
         Question suivante
       </button>
     </div>

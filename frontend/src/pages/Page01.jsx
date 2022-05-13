@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
 import { UserContext } from "../contexts/UserContext";
-import Header from "../components/Header";
 import Boutton from "../components/Boutton";
 import menuData from "../data/menuData";
 import logo from "../assets/logo-xl.png";
@@ -13,7 +12,7 @@ function Page01() {
   const { age } = useParams();
   return (
     <div className="page01-wrapper">
-      <img src={logo} alt="" width="30%" height="30%" />  
+      <img src={logo} alt="" width="30%" height="30%" />
       <div className="menu-container">
         {age === "enfant"
           ? menuData
@@ -32,7 +31,9 @@ function Page01() {
               ))}
       </div>
       <div className="menu-user">
-        <h1 className="menu-prenom">Bienvenue : {prenom}</h1>
+        <h1 className="menu-prenom">
+          Bienvenue <br /> {prenom}
+        </h1>
         <p className="menu-level">Niveau : 48</p>
       </div>
     </div>
