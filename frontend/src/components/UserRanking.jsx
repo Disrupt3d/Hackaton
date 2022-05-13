@@ -41,7 +41,7 @@ const UserRanking = () => {
             <div className="UserRankingName">
                 <h2>Dorian</h2>
             </div>
-            <div className="UserRankingRating">
+            <div className="UserRankingRatingSelected">
                 <p className='niveau'>48</p>
                 <p className="badges">10</p>
                 <p className="questions">42</p>

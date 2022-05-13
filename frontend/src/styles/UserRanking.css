@@ -23,6 +23,18 @@
     box-shadow: var(--box-shadow);
 }
 
+.UserRankingRatingSelected {
+    background-color: #f3aa66;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+
 .UserRankingRating2 {
     display: flex;
     justify-content: space-around;
