@@ -9,7 +9,7 @@
   display: flex;
   margin-top: 2rem;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   align-items: center;
 }
 
@@ -28,6 +28,7 @@
   width: 90%;
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color2);
@@ -35,13 +36,12 @@
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   padding: 0.5rem 2rem;
-  margin-top: 5rem;
   cursor: pointer;
   color: #e8e8e8;
   text-align: center;
   font-family: var(--title-font);
   font-weight: bold;
-  font-size: 32px;
+  font-size: 16px;
 }
 
 .question-img {
@@ -70,7 +70,7 @@
   font-family: var(--title-font);
   font-weight: bold;
   font-size: 32px;
-  margin: 2rem 2rem;
+  margin: 1rem 2rem;
   float: right;
   animation: shake 3s infinite;
 }
@@ -109,4 +109,12 @@
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
+}
+
+.eductesvieux {
+  color: #e8e8e8;
+  font-weight: bold;
+  padding: 2rem 0 2rem 0;
+  font-style: italic;
+  font-size: 24px;
 }

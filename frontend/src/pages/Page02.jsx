@@ -101,9 +101,11 @@ function Page02() {
         <div className="question-container">
           {congrats} <br />
           {questionslist[index].commentaire}
-          {age === "enfant" ? (
-            <p className="eductesvieux">{eductesvieux}</p>
-          ) : null}
+          <div className="astuce-content">
+            {age === "enfant" ? (
+              <p className="eductesvieux">{eductesvieux}</p>
+            ) : null}
+          </div>
         </div>
       )}
       <button className="nextquestion" type="button" onClick={handleNext}>
