@@ -12,6 +12,8 @@ function Page02() {
   const [answer, setAnswer] = useState();
   const [congrats, setCongrats] = useState("Mauvaise réponse");
   const [questionslist, setquestionslistlist] = useState(questions);
+  const eductesvieux =
+    "Maintenant que tu as compris, tu peux commencer l'éducation de tes vieux.";
 
   useEffect(() => {
     const handlequestionslistlist = () => {
@@ -64,7 +66,7 @@ function Page02() {
       setIndex(index + 1);
     } else {
       setCongrats(
-        "Bravo ! Tu as terminé le quiz ! Maintenant invite le reste de ta famille à en faire autant !"
+        "Bravo ! Tu as terminé le quiz ! Maintenant invite le reste de ta famille à en faire autant ! Educ' tes vieux !"
       );
       setCommentaire(false);
     }
@@ -102,6 +104,9 @@ function Page02() {
         <div className="question-container">
           {congrats} <br />
           {questionslist[index].commentaire}
+          {age === "enfant" ? (
+            <p className="eductesvieux">{eductesvieux}</p>
+          ) : null}
         </div>
       )}
     </div>
