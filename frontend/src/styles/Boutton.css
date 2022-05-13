@@ -1,34 +1,7 @@
-.questions-wrapper {
-  background-image: url(../assets/main-background.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: right;
-}
-
-.wrap-container {
+.button-main {
+  width: 300px;
+  height: 150px;
   display: flex;
-  margin-top: 2rem;
-  justify-content: center;
-  margin-bottom: 1rem;
-  align-items: center;
-}
-
-/*.wrap-container * {
-  text-transform: lowercase;
-}*/
-
-.answer-content {
-  width: 70%;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.question-container {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color2);
@@ -36,45 +9,53 @@
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   padding: 0.5rem 2rem;
+  margin: 0.5rem 0.5rem;
   cursor: pointer;
   color: #e8e8e8;
-  text-align: center;
+  text-transform: uppercase;
   font-family: var(--title-font);
   font-weight: bold;
-  font-size: 16px;
+  font-size: 24px;
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(51, 51, 51, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
-.question-img {
-  width: 300px;
-  height: 300px;
-
-  border-radius: 100%;
-}
-
-.useless-btn {
-  background-color: transparent;
-  border: none;
-}
-
-.nextquestion {
+button.shake {
+  width: 400px;
+  height: 150px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--color2);
   border: none;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   padding: 0.5rem 2rem;
+  margin: 1rem 1rem;
   cursor: pointer;
   color: #e8e8e8;
+  text-transform: uppercase;
   font-family: var(--title-font);
   font-weight: bold;
   font-size: 32px;
-  margin: 1rem 2rem;
-  float: right;
-  animation: shake 3s infinite;
+  animation: shake 1s infinite;
 }
-
 @keyframes shake {
   0% {
     transform: translate(2px, 1px) rotate(0deg);
@@ -109,12 +90,4 @@
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
-}
-
-.eductesvieux {
-  color: #e8e8e8;
-  font-weight: bold;
-  padding: 2rem 0 2rem 0;
-  font-style: italic;
-  font-size: 24px;
 }

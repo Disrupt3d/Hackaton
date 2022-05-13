@@ -1,29 +1,19 @@
-import React, { useState } from "react";
-import Navbar from "./Navbar";
-
+import React from "react";
+import { Link, useParams } from "react-router-dom";
+import logo from "../assets/logo-variante.png";
 import "../styles/Header.css";
 
 function Header() {
-  const [showMenu, setShowMenu] = useState(false);
-  const handleShowMenu = () => {
-    setShowMenu(!showMenu);
-  };
+  const { age } = useParams();
   return (
-    <div className={`header ${showMenu ? "show-nav" : "hide-nav"}`}>
-      <h2>Logo</h2>
-      <div className="menuWrapper">
-        <Navbar handleShowMenu={handleShowMenu} />
-      </div>
-
-      <button
-        type="button"
-        className="navbar-burger"
-        onClick={() => {
-          setShowMenu(!showMenu);
-        }}
-      >
-        <span className="bar" />
-      </button>
+    <div className="header-content">
+      <img src={logo} alt="logo" width="200px" />
+      <h1 className="app-name">Educ&apos; Tes Vieux</h1>
+      <Link to={`/page01/${age}`}>
+        <button className="backtomenu" type="button">
+          Retour au menu
+        </button>
+      </Link>
     </div>
   );
 }

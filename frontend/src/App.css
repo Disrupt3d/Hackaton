@@ -7,9 +7,9 @@
 
 :root {
   /*Police and fonts */
-  --title-font: "roboto", sans-serif;
+  --title-font: "Atma", "cursive";
   --title-size: 48px;
-  --text-font: "roboto", sans-serif;
+  --text-font: "Halant", "roboto";
   --text-size: 24px;
   --responsive-text-size: 16px;
   --responsive-title-size: 32px;
@@ -23,12 +23,12 @@
 
   /*Graphic Chart*/
 
-  --BackgroundColor: ;
-  --color1: ;
-  --color2: ;
+  --BackgroundColor: #7ca5b8;
+  --color1: #aafac8;
+  --color2: #eb5e55;
   --color3: ;
-  --border-radius: 18px;
-  --box-shadow: 0 3px 7px var(--color1);
+  --border-radius: 11px;
+  --box-shadow: 0 2px 7px var(--color1);
 }
 
 h1,
@@ -49,6 +49,10 @@ li,
 a {
   list-style-type: none;
   text-decoration: none;
+}
+
+body {
+  background-color: var(--BackgroundColor);
 }
 
 /* RESET */

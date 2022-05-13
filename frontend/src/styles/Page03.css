@@ -1,0 +1,136 @@
+#missions-title {
+  text-align: center;
+  color: #e8e8e8;
+  font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 5rem;
+}
+
+.mission-container {
+  margin-bottom: 3rem;
+}
+
+.mission-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mission-card {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--color2);
+  border-radius: var(--border-radius);
+  align-items: center;
+  width: 50%;
+  margin: 30px;
+}
+
+.mission-image {
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 150px;
+  width: 150px;
+}
+
+.mission-desc {
+  font: (--title-font);
+  font-size: 20px;
+  color: #e8e8e8;
+  margin: 25px;
+}
+
+.check {
+  position: relative;
+  background: linear-gradient(90deg, #0d3b66, #aafac8);
+  line-height: 0;
+  perspective: 400px;
+  margin-right: 25px;
+}
+
+.check input[type="checkbox"],
+.check label,
+.check label::before,
+.check label::after,
+.check {
+  appearance: none;
+  display: inline-block;
+  border-radius: 1rem;
+  border: 0;
+  transition: 0.35s ease-in-out;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.check label {
+  width: 4rem;
+  height: 2rem;
+  background: #d7d7d7;
+  overflow: hidden;
+}
+
+.check input[type="checkbox"] {
+  position: absolute;
+  z-index: 1;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0.1rem;
+  left: 0.1rem;
+  background: linear-gradient(45deg, #dedede, #ffffff);
+  box-shadow: 0 6px 7px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.check input[type="checkbox"]:checked {
+  left: 2.4rem;
+}
+
+.check input[type="checkbox"]:checked + label {
+  background: transparent;
+}
+
+.check label::before,
+.check label::after {
+  content: "· ·";
+  position: absolute;
+  overflow: hidden;
+  left: 0.15rem;
+  top: 0.5rem;
+  height: 1rem;
+  letter-spacing: -0.04rem;
+  color: #9b9b9b;
+  font-family: "Times New Roman", serif;
+  z-index: 2;
+  font-size: 0.6rem;
+  border-radius: 0;
+  transform-origin: 0 0 -0.5rem;
+  backface-visibility: hidden;
+}
+
+.check label::after {
+  content: "●";
+  top: 0.65rem;
+  left: 0.3rem;
+  height: 0.1rem;
+  width: 0.35rem;
+  font-size: 0.2rem;
+  transform-origin: 0 0 -0.4rem;
+}
+
+.check input[type="checkbox"]:checked + label::before,
+.check input[type="checkbox"]:checked + label::after {
+  left: 2.75rem;
+  top: 0.4rem;
+  line-height: 0.1rem;
+  transform: rotateY(360deg);
+}
+
+.check input[type="checkbox"]:checked + label::after {
+  height: 0.16rem;
+  top: 0.65rem;
+  left: 2.8rem;
+  font-size: 0.6rem;
+  line-height: 0;
+}

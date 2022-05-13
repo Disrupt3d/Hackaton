@@ -1,0 +1,33 @@
+.accueil-wrapper {
+  height: 100vh;
+  background-color: var(--BackgroundColor);
+  background-image: url("../assets/logo-xl.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 70%;
+}
+.accueil-wrapper h1 {
+  margin: 2rem;
+  font-size: 64px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--color2);
+}
+.btn-container {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.name-container {
+  display: flex;
+  margin: 5rem auto 3rem auto;
+  text-align: center;
+  padding: 1rem 0;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  font-family: var(--title-font);
+  font-size: var(--title-size);
+}

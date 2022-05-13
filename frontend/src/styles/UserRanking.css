@@ -1,0 +1,71 @@
+.UserRankingRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto 0.9rem;
+  font-size: 1.5rem;
+}
+
+.UserRankingName > h2 {
+  font-size: 2.8rem;
+  color: #e8e8e8;
+}
+
+.UserRankingRating {
+  background-color: var(--color2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.UserRankingRating > p,
+.UserRankingRatingSelected > p {
+  font-size: 2rem;
+  padding-top: 2px;
+}
+
+.UserRankingRatingSelected {
+  background-color: #f3aa66;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.UserRankingRating2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 78%;
+  font-size: 2rem;
+}
+
+.UserRankingRating2 > p {
+  color: #e8e8e8;
+}
+
+.UserRankingRating > p {
+  color: #e8e8e8;
+  text-align: center;
+}
+
+.questions {
+  margin-right: 13px;
+}
+
+.niveau {
+  font-weight: 800;
+}
+
+.missions {
+  text-align: right;
+}
