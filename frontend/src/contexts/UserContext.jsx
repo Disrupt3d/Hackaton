@@ -4,12 +4,9 @@ export const UserContext = createContext();
 
 export function ContextProvider({ children }) {
   const [prenom, setPrenom] = useState("");
-  const handlePrenom = () => {
-    setPrenom(prenom);
-  };
 
   return (
-    <UserContext.Provider value={{ prenom, handlePrenom }}>
+    <UserContext.Provider value={{ prenom, setPrenom }}>
       {children}
     </UserContext.Provider>
   );
